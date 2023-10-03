@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href="contato.css" rel="stylesheet" type="text/css" />
+   
+    <script type="text/javascript" src="meu_script.js"></script> 
+
+
+ <title>Desenvolvedor Front-End</title>
+</head>
+
+
+
+
+<body>
+
+
+    <main>
+    <header>
+
+       
+        
+        <nav>
+
+            <ul class="menu">
+
+                <li><a href="index.html"> Inicio</a></li>
+                <li><a href="quemsou.html"> Quem sou</a></li>
+                <li><a href="projeto.html"> Projetos</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+        
+        </nav>
+        <br>
+        <br>
+        <br>
+        <h1>Entre em Contato</h1>
+        <hr>
+
+<script>
+var emailInput = document.getElementById('email');
+emailInput.addEventListener('blur', function() {
+    if (!emailInput.value.includes('@')) {
+        alert('E-mail inválido.');
+    }
+});
+
+
+</script>
+
+        <form action="processar_formulario.php" method="POST">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" required><br><br>
+        
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email" required><br><br>
+        
+            <label for="mensagem">Mensagem:</label><br>
+            <textarea id="mensagem" name="mensagem" rows="4" cols="40" required></textarea><br><br>
+        
+            <input type="submit" value="Enviar">
+        </form>
+    
+
+
+    <div class="map-responsive"> </div>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d497856.5961793028!2d-38.83145968394352!3d-12.875238183639134!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x716037ca23ca5b3%3A0x1b9fc7912c226698!2sSalvador%20-%20BA!5e0!3m2!1spt-PT!2sbr!4v1694139658951!5m2!1spt-PT!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"> </iframe>
+    </header>
+    </main>    
+
+<br>
+<br>
+<br>
+<div>
+    <a href="https://www.instagram.com/america.rios/" target="_blank" rel="nofollow"> <img src="imagens/instagram.png" style="width:50px;height:50px;margin-left:15px;"> </a>
+    <a href="https://wa.me/557192171030" target="_blank" rel="nofollow"> <img src="imagens/whatsapp.png" style="width:50px;height:50px;margin-left:15px;"> </a>
+    <a href="https://www.linkedin.com/in/am%C3%A9rica-rios-a65698234/" target="_blank" rel="nofollow"> <img src="imagens/likedin.png" style="width:50px;height:50px;margin-left:15px;"> </a>
+    <a href="https://github.com/americarios" target="_blank" rel="nofollow"> <img src="imagens/github.png" style="width:50px;height:50px;margin-left:15px;"> </a>
+    <a href="qrcode.html" target="_blank" rel="nofollow"> <img src="imagens/qrcode.png" style="width:50px;height:50px;margin-left:15px;"> </a>
+  
+</div>
+
+<footer> Copyright 2023 <br> <a href="https://br.freepik.com/vetores-gratis/fluxo-de-design-de-codigo-binario_13311414.htm#page=2&query=site%20fundo%20codigo%20binario&position=39&from_view=search&track=ais">Imagem de rawpixel.com</a> no Freepik<br>  <a target="_blank" href="https://icons8.com/icon/52539/github">GitHub</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a></footer>
+</body>
+</html>
